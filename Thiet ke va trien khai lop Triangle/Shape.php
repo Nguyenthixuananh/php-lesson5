@@ -8,8 +8,8 @@ class Shape {
         $this->color= $color;
     }
 
-    public function show(): string
-    {
-        echo "I am a shape. My name is ".$this->name." . My color is".$this->color;
-    }
+//    public function show(): string
+//    {
+//        echo "I am a shape. My name is ".$this->name." . My color is ".$this->color;
+//    }
 }

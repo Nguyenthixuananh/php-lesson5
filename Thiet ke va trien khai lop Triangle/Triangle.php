@@ -13,9 +13,9 @@ class Triangle extends Shape
      * @param $side3
      */
 
-    public function __construct($name)
+    public function __construct($name, $color)
     {
-        parent::__construct($name);
+        parent::__construct($name, $color);
         $this->side1 = 1.0;
         $this->side2 = 1.0;
         $this->side3 = 1.0;
@@ -82,8 +82,7 @@ class Triangle extends Shape
 
     public function toString()
     {
-        parent::show();
-        echo "Side1: ".$this->side1.", Side2: ".$this->side2.", Side3: ".$this->side3."<br>"."Area: ".$this->getArea()."<br>"." Perimeter: ".$this->getPerimeter()."<br>";
+        echo "I am a shape. My name is ".$this->name." . My color is ".$this->color."<br/>"."Side1: ".$this->side1.", Side2: ".$this->side2.", Side3: ".$this->side3."<br>"."Area: ".$this->getArea()."<br>"." Perimeter: ".$this->getPerimeter()."<br>";
     }
 
 
